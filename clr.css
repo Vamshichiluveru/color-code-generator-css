@@ -1,0 +1,50 @@
+#container
+{
+  background:#4B006F;
+  table-layout: auto;
+  text-align: center;
+  padding: 40px 40px 40px 40px;
+  border-radius:15px 80px;
+}
+#heading
+{
+  font-size:40px;
+  color:#FFFFFF;
+  padding-bottom:40px;
+  border-bottom:8px solid #FFFFFF;
+     
+}
+fieldset
+{
+   border:none;
+}
+output
+{
+  display: inline-block;
+  min-width: 4.5em;
+}
+label, output
+{
+  padding: 15px 15px;
+  border-radius: 9px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  font-size: 1.5em;
+}
+label[for=r], output[for=r]
+{
+  background-color: #F00;
+}
+label[for=g], output[for=g]
+{
+  background-color: #0F0;
+}
+label[for=b], output[for=b]
+{
+  background-color: #00F;
+}
+#hex
+{
+     background-color: #FA0;
+}    
+
